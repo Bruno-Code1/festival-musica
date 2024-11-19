@@ -2,9 +2,10 @@
   "name": "festival-musica",
   "version": "1.0.0",
   "description": "Aprendiendo SASS y NPM",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "sass": "sass --watch src/scss:build/css"
+    "sass": "sass --watch src/scss:build/css",
+    "dev": "gulp dev"
   },
   "keywords": [
     "SASS",
@@ -14,6 +15,8 @@
   "author": "Bruno Bettio",
   "license": "MIT",
   "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
     "sass": "^1.81.0"
   }
 }
