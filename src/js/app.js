@@ -68,7 +68,7 @@ function cerrarModal() {
   modal.classList.add('fadeOut');
 
   setTimeout(()=>{
-    modal?.classList.remove('modal');
+    modal?.remove();
     const body = document.querySelector('body');
     body.classList.remove('overflow-hidden');
   },500);
